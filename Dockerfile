@@ -1,9 +1,8 @@
 FROM ubuntu:16.04
 
-RUN df -h
-
 RUN apt-get update \
     && apt-get install bzip2 \
+        curl \
         default-jdk \
         bzip2 \
         wget -y \

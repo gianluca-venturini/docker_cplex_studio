@@ -1,5 +1,6 @@
 ## Build the docker container
-- Download cplex_studio128.linux-x86-64.bin from IBM website.
+- Download `cplex_studio128.linux-x86-64.bin` from IBM website.
+
 `docker build -t cplex .`
 
 ## Start the container
